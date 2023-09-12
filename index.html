@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./assets/ethior0.png" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <div class="header-bar">
+      <div class="header-logo">
+        <img class="header-logo-snap" src="./assets/logo.svg" alt="logo">
+        <nav>
+          <a href="#"><span>Features</span><img src="./assets/icon-arrow-down.svg"></a>
+          <a href="#"><span>Company</span><img src="./assets/icon-arrow-down.svg"></a>
+          <a href="#"><span>Careers</span></a>
+          <a href="#"><span>About</span></a>
+        </nav>
+      </div>
+
+      <div class="header-button">
+        <button type="submit">Login</button>
+        <button type="submit">Register</button>
+      </div>
+    </div>
+
+    <div class="header-bar-mobile">
+      <img src="./assets/logo.svg" alt="logo">
+      <button onclick="show()">
+        <img class="responsive-img" src="./assets/icon-menu.svg">
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <img class="main-img" src="./assets/image-hero-mobile.png">
+    <div class="main-content">
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <button type="submit">Learn more</button>
+    </div>
+    <div class="main-client">
+      <img src="./assets/client-databiz.svg" alt="client databiz">
+      <img src="./assets/client-audiophile.svg" alt="client audiophile">
+      <img src="./assets/client-meet.svg" alt="client meet">
+      <img src="./assets/client-maker.svg" alt="client maker">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
